@@ -1,0 +1,19 @@
+<div class="playersTable mt-4">
+    <table class="table table-dark">
+        <tr>
+            <th>SR NO.</th>
+            <th>FIRST NAME</th>
+            <th>LAST NAME</th>
+            <th>NICKNAME</th>
+            <th>NUMBER</th>
+        </tr>
+        <tr 
+        *ngFor="let player of players">
+            <td>{{player.srNo}}</td>
+            <td>{{player.fname}}</td>
+            <td>{{player.lname}}</td>
+            <td>{{player.nickname}}</td>
+            <td>{{player.number}}</td>
+        </tr>
+    </table>
+</div>
